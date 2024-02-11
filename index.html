@@ -14,13 +14,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
   <header id="home">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">Digital-captures</a>
+          <a class="navbar-brand" href="#">Digital-<span class="text-primary">Captures</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,16 +35,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="#About">About</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
                   Services
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#services">photos</a></li>
-                  <li><a class="dropdown-item" href="#services">vedios</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#services">Graphics  </a></li>
-                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">OurTeam</a>
@@ -51,10 +47,6 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -104,12 +96,12 @@
   <section class="About my-5" id="About">
     <div class="container ">
       <div class="text-center my-5">
-        <h1  data-aos="fade-up">About Us</h1>
+        <h1  data-aos="fade-up">About <span class="text-primary">Us</span></h1>
         <hr \ class="w-25 m-auto">
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 col-12 my-3">
-          <h2><span class="text-primary">  what do you want to know us?</span></h2>
+          <h2> what do you want to <span class="text-primary">know us?</span></h2>
         </div>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 col-12">
@@ -122,7 +114,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              We Passionated
+              <h5><strong>We Passionated</strong></h5>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -134,7 +126,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Team Members
+              <h5><strong>Team Members</strong></h5>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -154,7 +146,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Our Strengths
+              <h5><strong>Our Strengths</strong></h5>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -176,17 +168,17 @@
      </div>
 
   </section>
-
+<!-----------------------------------service--------------------------------------->
 
   <section class="services py-5 bg-light" id="services">
     <div class="container">
       <div class="text-center my-5">
-        <h1> Our Services</h1>
+        <h1> Our <span class="text-primary">Services</span></h1>
         <hr \ class="w-25 m-auto">
       </div>
       <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-        <div class="card" style="width: 18rem; ">
+        <div class="card m-auto" style="width: 18rem; ">
           <div class="card-body bg-primary text-white">
             <i class="fa fa-users  text-white p-2"></i>
             <h5 class="card-title">Portrait Photography</h5>
@@ -197,7 +189,7 @@
 
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card m-auto" style="width: 18rem;">
           <div class="card-body bg-primary text-white">
             <i class="fa fa-users  text-white p-2"></i>
             <h5 class="card-title">Event Photography</h5>
@@ -207,7 +199,7 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card m-auto" style="width: 18rem;">
           <div class="card-body bg-primary text-white">
             <i class="fa fa-users  text-white p-2"></i>
            
@@ -220,27 +212,28 @@
     </div>
     </div>
   </section>
+  <!---------------------our team ---------------------------->
   
    <section class="team my-5  text-center" id="team">
-    <div class="container">
+    <div class="container m-auto">
      <div class="text-center my-5">
-        <h1> Our Team</h1>
+        <h1> Our <span class="text-primary">Team</span></h1>
         <hr \ class="w-25 m-auto">
         <div class="row my-5">
           <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card m-auto" style="width: 18rem;">
               <img src="css/img/girl1.jpeg" class="img-fluid rounded-circle border border-primary p-2 w-50 m-auto  mt-4" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sarada</h5>
                 <p class="card-text">Visionary</p>
           
                 <p>In the context of photography, a "visionary" typically refers to a photographer who possesses a unique and innovative artistic vision.</p> 
-                <a href="#" class="btn btn-primary">Read MOre</a>
+                <a href="#" class="btn btn-primary">Read More</a>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card m-auto" style="width: 18rem;">
               <img src="css/img/girl2.jpeg" class="img-fluid rounded-circle border border-primary p-2 w-50 m-auto  mt-4" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lohitha</h5>
@@ -251,7 +244,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card m-auto" style="width: 18rem;">
               <img src="css/img/girl7.jpeg" class="img-fluid rounded-circle border border-primary p-2 w-50 m-auto  mt-4" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Bharathi</h5>
@@ -262,7 +255,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card m-auto" style="width: 18rem;">
               <img src="css/img/pic1.jpeg" class="img-fluid rounded-circle border border-primary p-2 w-50 m-auto  mt-4" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sunitha</h5>
@@ -273,7 +266,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card m-auto" style="width: 18rem;">
               <img src="css/img/girl5.jpeg" class="img-fluid rounded-circle border border-primary p-2 w-50 m-auto  mt-4" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sandhya</h5>
@@ -287,11 +280,13 @@
         </div>
       </div>
     </div>
+
    </section>
+   <!--------------------------------contact----------------------------------------------->
    <section class="contact py-5" id="contact"> 
     <div class="container">
       <div class="text-center my-5">
-        <h1>Contact Details</h1>
+        <h1>Contact <span class="text-primary">Details</span></h1>
         <hr \ class="w-25 m-auto">
         <div class="row my-5">
     </div>
@@ -299,14 +294,14 @@
       <div class="col-sm-12 col-md-6 col-lg-6 col-12">
         <form class="row g-3">
             <div class="mb-3 row">
-                <label for="inputName" class="col-sm-2 col-form-label">Name :</label>
+                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputName">
                 </div>
               </div>
 
             <div class="mb-3 row">
-                <label for="Email4" class="col-sm-2 col-form-label">Email :</label>
+                <label for="Email4" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
                     <input type="email" class="form-control" id="inputEmail4">
                 </div>
@@ -318,9 +313,9 @@
                 </div>
               </div>
               <div class="mb-3 row">
-                <label for="inputAddress" class="col-sm-2 col-form-label">Address :</label>
+                <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="inputAddress">
                 </div>
             </div>
            <div class="col-12">
@@ -328,8 +323,8 @@
           </div>
         </form>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 col-12 p-2">
-        <img src="css/img/pic2.jpeg" class="img-fluid img-thumbnail  my-3">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12 p-2 ">
+        <img src="css/img/pic2.jpeg" class="img-fluid img-thumbnail">
       </div>
     </div>
    </section>
